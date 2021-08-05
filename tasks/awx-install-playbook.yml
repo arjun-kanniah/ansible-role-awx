@@ -27,4 +27,5 @@
   service:
     name: docker
     state: restarted
+    use: service
   when: not awx_playbook_already_run.stat.exists
