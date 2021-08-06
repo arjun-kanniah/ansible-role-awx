@@ -1,6 +1,6 @@
 ---
 awx_repo: https://github.com/arjun-kanniah/awx-tower.git
-awx_repo_dir: "/home/arjunkanniah/awx-tower"
+awx_repo_dir: "/home/arjunkanniah/installation-files/awx-tower"
 awx_version: master
 awx_keep_updated: true
 awx_run_install_playbook: true
