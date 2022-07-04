@@ -5,7 +5,7 @@
   register: awx_playbook_already_run
 
 - name: Run the AWX installation playbook.
-  command: 'ansible-playbook -i inventory install.yml'
+  shell: 'ansible-playbook -i inventory install.yml'
   args:
     chdir: "{{ awx_repo_dir }}/installer"
     creates: /etc/awx_playbook_complete
