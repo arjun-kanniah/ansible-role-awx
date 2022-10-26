@@ -18,5 +18,5 @@
     accept_hostkey: true
 
 - name: Import & Run the installation playbook.
-  ansible.builtin.import_playbook: awx-install-playbook.yml
+  import_playbook: awx-install-playbook.yml
   when: awx_run_install_playbook
